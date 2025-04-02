@@ -1,0 +1,228 @@
+ 
+
+
+        /*media querys , dise;o responsive*/
+        @media only screen and (max-width: 600px) {
+
+
+            .cuerpo {
+                background-image: url('../img/stockz-celular.png');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+                color: white;
+                font-family: Arial, sans-serif;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                text-align: center;
+                transition: transform 0.2s ease-in-out;  
+            }
+
+           
+
+
+
+            header {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px;
+                background: rgba(0, 0, 0, 0.5);
+                position: absolute;
+                top: 0;
+            }
+            .header-left {
+                font-size: 18px;
+                font-weight: bold;
+                margin-left: 25px;
+            }
+            .header-right {
+                font-size: 18px;
+                font-weight: bold;
+                margin-right: 25px;
+            }
+            #youtube-button {
+                position: absolute;
+                bottom: 20px;
+                left: 20px;
+                padding: 10px 20px;
+                font-size: 18px;
+                font-weight: bold;
+                color: white;
+                background-color: red;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                text-decoration: none;
+            }
+            .multimedia-button {
+                position: absolute;
+                bottom: 20px;
+                right: 20px;
+                padding: 10px 20px;
+                font-size: 18px;
+                font-weight: bold;
+                color: white;
+                background-color: green;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                text-decoration: none;
+            }
+    
+        
+        }
+
+        @media only screen and (min-width: 601px) and (max-width: 768px) {
+            body{}
+            header{}
+            .header-left {}
+            .header-right {}
+            #youtube-button {}
+            .multimedia-button {}
+        }
+
+        
+        @media only screen and (min-width: 769px) and (max-width: 1024px) {
+            body{
+            background-image: url('../img/stockz-celular.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            transition: transform 0.2s ease-in-out;  
+        }
+
+            header{}
+            .header-left {}
+            .header-right {}
+            #youtube-button {}
+            .multimedia-button {}
+        }
+
+        
+        @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+            body{
+                background-image: url('../img/stockz-celular.png');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+                color: white;
+                font-family: Arial, sans-serif;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                text-align: center;
+                transition: transform 0.2s ease-in-out;  
+            }
+    
+            header{}
+            .header-left {}
+            .header-right {}
+            #youtube-button {}
+            .multimedia-button {}
+        }
+
+        
+        @media only screen and (min-width: 1201px) {
+            body{}
+            header{}
+            .header-left {}
+            .header-right {}
+            #youtube-button {}
+            .multimedia-button {}
+        }
+
+
+
+ 
+
+       /* 
+       elementos a usar en el dise;o responsive
+       
+         body {
+            background-image: url('stockz.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            transition: transform 0.2s ease-in-out;  
+        }
+        header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 0;
+        }
+        .header-left {
+            font-size: 18px;
+            font-weight: bold;
+            margin-left: 25px;
+        }
+        .header-right {
+            font-size: 18px;
+            font-weight: bold;
+            margin-right: 25px;
+        }
+        #youtube-button {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            background-color: red;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .multimedia-button {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            background-color: green;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    }*/

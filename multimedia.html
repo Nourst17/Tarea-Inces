@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Zapatos</title>
+    <style>
+        body {
+            background-image: url('https://i.pinimg.com/originals/4d/74/08/4d740888825ff6e44028919c3f2ebfc0.gif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.7);
+            position: fixed;
+            top: 0;
+            z-index: 100;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.2);
+        }
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.5);
+        }
+        .main-title {
+            margin-top: 100px;
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .products-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+        .product-card {
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .product-card img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .product-name {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .product-price {
+            color: #32cd32;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Zapatos INCES</div>
+        <nav>
+            <a href="Paginawebinfocentro.html">Inicio</a>
+            <a href="#contacto">Contáctanos</a>
+        </nav>
+    </header>
+
+    <div class="main-title" id="inicio">Bienvenido a la Tienda de Zapatos</div>
+
+    <section class="products-container" id="productos">
+        <!-- Productos originales -->
+        <div class="product-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2_L5pJly0Dl16IqLYw_sccUfm6ZxeAP2ZCCCh4GF9fuIzqJtMehCdlZ8hVZn-XP5C6qs&usqp=CAU" alt="adidas AE 1 Silver Metallic">
+            <div class="product-name">adidas AE 1 Silver Metallic</div>
+            <div class="product-price">$100</div>
+        </div>
+        <div class="product-card">
+            <img src="https://preview.redd.it/sgelj296vt401.jpg?width=1080&crop=smart&auto=webp&s=8fcd019eb10be8d2597daec354300411fe190168" alt="Nike Kyrie 4 Confetti">
+            <div class="product-name">Nike Kyrie 4 Confetti</div>
+            <div class="product-price">$250</div>
+        </div>
+        <div class="product-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMwEvSOKzrX0NZ7CYvAt2_7_DFurH-aO430w&s" alt="Nike Kobe 6 Protro Reverse Grinch">
+            <div class="product-name">Nike Kobe 6 Protro Reverse Grinch</div>
+            <div class="product-price">$500</div>
+        </div>
+        <!-- Productos actualizados -->
+        <div class="product-card">
+            <img src="https://modozapatillas.com/upload/productos/galeria/normal/puma-lamelo-ball-mb03-toxic-2fba9547f91cd8d8bf0601fb2cb61dff.jpg">
+            <div class="product-name">Puma LaMelo Ball MB.03 Toxic</div>
+            <div class="product-price">$180</div>
+        </div>
+        <div class="product-card">
+            <img src="https://media.gq.com.mx/photos/656f57fd09f20ebe9f89a189/2:3/w_1334,h_2001,c_limit/Puma_MB.03_Dexter%E2%80%99s_Laboratory.jpg">
+            <div class="product-name">Puma LaMelo Ball MB.03 Dexter's Laboratory</div>
+            <div class="product-price">$200</div>
+        </div>
+        <div class="product-card">
+            <img src="https://mariourbanstore.com/cdn/shop/products/image_28b266c8-378b-48e0-9f30-cb5014f44489.jpg?v=1679772295">
+            <div class="product-name">Puma LaMelo Ball MB.02 Rick & Morty Adventures</div>
+            <div class="product-price">$170</div>
+        </div>
+        <div class="product-card">
+            <img src="https://underarmour.scene7.com/is/image/Underarmour/3027632-100_PAIR?rp=standard-30pad|pdpMainDesktop&scl=1&fmt=jpg&qlt=85&resMode=sharp2&cache=on,on&bgc=f0f0f0&wid=566&hei=708&size=536,688">
+            <div class="product-name">Under Armour Curry Flow 12 Shooting Star</div>
+            <div class="product-price">$150</div>
+        </div>
+        <div class="product-card">
+            <img src="https://images.stockx.com/images/Nike-LeBron-22-Mogul-Product.jpg?fit=fill&bg=FFFFFF&w=1200&h=857&q=60&dpr=1&trim=color&updated_at=1740759245">
+            <div class="product-name">Nike LeBron 22 Mogul</div>
+            <div class="product-price">$100</div>
+        </div>
+        <div class="product-card">
+            <img src="https://cdna.lystit.com/520/650/n/photos/kickscrew/5d0511d3/nike-multi-color-Lebron-22-What-The-Monopoly.jpeg">
+            <div class="product-name">Nike LeBron 22 What the Monopoly Tie-Dye (Translucent Outsole)</div>
+            <div class="product-price">$120</div>
+        </div>
+        <div class="product-card">
+            <img src="https://sneakernews.com/wp-content/uploads/2024/10/nike-giannis-immortality-4-hyper-violet-green-strike-bold-berry-fq3680-501-5_49f1d7.jpg">
+            <div class="product-name">Nike Giannis Immortality 4 Hyper Violet Green Strike Bold Berry Black</div>
+            <div class="product-price">$80</div>
+        </div>
+        <div class="product-card">
+            <img src="https://www.nicekicks.com/files/2024/01/Nike-Giannis-Immortality-3-All-Star-FV4057-600-01.jpg">
+            <div class="product-name">Nike Giannis Immortality 3 All Star</div>
+            <div class="product-price">$60</div>
+        </div>
+        <div class="product-card">
+            <img src="https://anta.com/cdn/shop/files/ANTA-KAI-1-SPEED-Celestial-Guardian-Media-1.jpg?v=1743151560">
+            <div class="product-name">Anta Kai 1 Speed Celestial Guardian</div>
+            <div class="product-price">$120</div>
+        </div>
+        <div class="product-card">
+            <img src="https://anta.com/cdn/shop/files/ANTA-KAI-2-Artist-On-Court-Details-MOB-0_06119c10-9cab-4edd-af5d-75acd404b6e0.jpg?v=1739963469&width=1212">
+            <div class="product-name">Anta Kai 2 Artist On Court</div>
+            <div class="product-price">$140</div>
+        </div>
+        <div class="product-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd0ESi8-c06Y5Y6v4CsFtwyRQfYiyTD99yLQ&s">
+            <div class="product-name">Nike Ja 1 Year of the Dragon</div>
+            <div class="product-price">$300</div>
+        </div>
+        <div class="product-card">
+            <img src="https://24segons.es/191609-large_default/jordan-luka-3-se-matador-zapatillas.jpg">
+            <div class="product-name">Jordan Luka 3 SE El Matador</div>
+            <div class="product-price">$220</div>
+        </div>
+
+        </section>
+</body>
+</html>
